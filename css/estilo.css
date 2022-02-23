@@ -85,18 +85,26 @@ body {
 }
 
 .general .btn{
-	font-size: 1em;
+	font-size: 1.5em;
 	background: none;
+	width: 200px;
+	height: 100px;
+	margin: 20px;
 	color: black;
-	padding: 10px 20px;
 	border: 1px solid black;
 	border-radius: 30px;
-	margin-top: 20px;
+	margin-top: 30px;
+	cursor: pointer;
+	clip-path: circle(50%);
+	transition-property: clip-path;
+	transition-duration: 2s;
+
 }
 
 .general .btn:hover{
 	background: black;
 	color: white;
+	clip-path: circle(100%);
 }
 
 /* section main CONSEJOS*/
@@ -145,19 +153,25 @@ body {
 }
 
 .general_contacto .btn_contacto{
-	font-size: 1em;
-	background: none;
-	color: white;
+	font-size: 1.5em;
+	background: whitesmoke;
+	color: black;
 	padding: 10px 20px;
 	border: 1px solid white;
 	border-radius: 30px;
 	margin-top: 20px;
 	cursor: pointer;
+	clip-path: circle(50%);
+	transition-property: clip-path;
+	transition-duration: 2s;
+	width: 150px;
+	height: 100px;
 }
 
 .general_contacto .btn_contacto:hover{
 	background: black;
 	color: white;
+	clip-path: circle(100%);
 }
 
 .general_contacto .text__contacto{
@@ -209,18 +223,24 @@ body {
 
 .quienes_somos .btn_quienessomos{
 	font-size: 1em;
-	background: none;
-	color: white;
+	background: whitesmoke;
+	color: black;
 	padding: 10px 20px;
-	border: 1px solid white;
+	border: 1px solid black;
 	border-radius: 30px;
 	margin-top: 20px;
 	cursor: pointer;
+	clip-path: circle(50%);
+	transition-property: clip-path;
+	transition-duration: 2s;
+	width: 150px;
+	height: 100px;
 }
 
 .btn_quienessomos:hover{
 	background: black;
 	color: white;
+	clip-path: circle(100%);
 }
 
 /* footer */
